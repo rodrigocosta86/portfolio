@@ -46,6 +46,12 @@ section h2 {
     border-bottom: 2px solid #38bdf8;
 }
 
+.lista-projetos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 .projeto {
     background-color: white;
     padding: 20px;
@@ -68,8 +74,42 @@ section h2 {
     background-color: #38bdf8;
 }
 
-.lista-projetos {
+.lista-tecnologias {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+
 }
+
+.tecnologia {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex: 1 1 300px;
+    max-width: 340px;
+    transition: 0.3s;
+}
+
+.tecnologia:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.lista-contatos {
+    display: flex;
+    gap: 15px;
+}
+
+.lista-contatos a {
+    padding: 10px 16px;
+    background-color: #1f2937;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.lista-contatos a:hover{
+     background-color: #38bdf8;
+}
+
