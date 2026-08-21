@@ -13,6 +13,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    position: relative;
 }
 
 nav ul {
@@ -111,5 +112,27 @@ section h2 {
 
 .lista-contatos a:hover{
      background-color: #38bdf8;
+}
+
+body.modo-escuro {
+    background-color: #111;
+    color: white;
+}
+
+body.modo-escuro .projeto {
+    background-color: #222;
+    color: white;
+    border: 1px solid #444;
+}
+
+#modo-escuro {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
 }
 
