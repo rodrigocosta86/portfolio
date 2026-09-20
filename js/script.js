@@ -4,8 +4,11 @@ let body = document.querySelector("body");
 
 let temaSalvo = localStorage.getItem("tema");
 
+console.log(temaSalvo);
+
 if (temaSalvo === "modo-escuro") {
     body.classList.add("modo-escuro")
+    botaoModo.textContent = "☀️"
 }
 
 botaoModo.addEventListener("click", mudarModo);

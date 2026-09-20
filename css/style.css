@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: #1f2937;
     color: white;
@@ -26,6 +30,7 @@ nav ul {
 nav a {
     color: white;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 nav a:hover {
@@ -119,10 +124,15 @@ body.modo-escuro {
     color: white;
 }
 
-body.modo-escuro .projeto {
+body.modo-escuro .projeto,
+body.modo-escuro .tecnologia {
     background-color: #222;
     color: white;
     border: 1px solid #444;
+}
+
+body.modo-escuro section h2 {
+    color: white;
 }
 
 #modo-escuro {
@@ -135,4 +145,25 @@ body.modo-escuro .projeto {
     right: 20px;
     cursor: pointer;
 }
+
+body.modo-escuro .projeto a,
+body.modo-escuro .lista-contatos a {
+    background-color: #374151;
+}
+
+body.modo-escuro .projeto a:hover,
+body.modo-escuro .lista-contatos a:hover {
+    background-color: #38bdf8;
+}
+
+@media (max-width: 600px) {
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0;
+    }
+
+}
+
 
