@@ -156,6 +156,92 @@ body.modo-escuro .lista-contatos a:hover {
     background-color: #38bdf8;
 }
 
+.caso-teste {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.caso-teste h3 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+body.modo-escuro .caso-teste {
+    background-color: #222;
+    color: white;
+    border: 1px solid #444;
+}
+
+body.modo-escuro .caso-teste h3 {
+    color: white;
+}
+
+.resumo-testes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resumo-numeros {
+    display: flex;
+    gap: 20px;
+}
+
+.resumo-numeros div {
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-width: 130px;
+}
+
+.resumo-numeros strong {
+    display: block;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.resumo-numeros span {
+    display: block;
+    margin-top: 5px;
+}
+
+.voltar-portfolio {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #1f2937;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voltar-portfolio:hover {
+    color: #38bdf8;
+}
+
+.evidencia {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.evidencia img {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.evidencia h3 {
+    color: #1f2937;
+}
+
 @media (max-width: 600px) {
 
     nav ul {
