@@ -267,6 +267,10 @@ body.modo-escuro .caso-teste h3 {
         line-height: 1.4;
     }
 
+    .resumo-numeros {
+        flex-direction: column;
+    }
+
 }
 
 footer {
@@ -276,4 +280,3 @@ footer {
     padding: 20px;
     margin-top: 30px;
 }
-
