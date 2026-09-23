@@ -271,6 +271,12 @@ body.modo-escuro .caso-teste h3 {
         flex-direction: column;
     }
 
+
+    .resumo-numeros div {
+        min-width: 0;
+        width: 100%;
+    }
+
 }
 
 footer {
