@@ -4,7 +4,6 @@ let body = document.querySelector("body");
 
 let temaSalvo = localStorage.getItem("tema");
 
-console.log(temaSalvo);
 
 if (temaSalvo === "modo-escuro") {
     body.classList.add("modo-escuro")
@@ -16,7 +15,7 @@ botaoModo.addEventListener("click", mudarModo);
 
 function mudarModo() {
     body.classList.toggle("modo-escuro")
-    console.log("Botão clicado!");
+
 
     if (body.classList.contains("modo-escuro")) {
         botaoModo.textContent = "☀️";
